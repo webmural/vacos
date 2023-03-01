@@ -1,0 +1,19 @@
+::selection {
+  background: #bee;
+  color: indigo;
+}
+
+:root {
+  background: #529;
+  color: lemonchiffon;
+}
+
+:any-link {
+  color: pink;
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: peachpuff;
+  }
+}
